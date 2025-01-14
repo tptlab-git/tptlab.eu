@@ -3,7 +3,6 @@ import { createClient } from "redis";
 import { env } from "$env/dynamic/private";
 
 const bytesToGB = 1024 ** 3;
-const redisClient = await createClient({ url: env.CACHE || "redis://127.0.0.1:6379"}).connect();
 
 export const load = async () => {
   const proxmox = proxmoxApi({
@@ -11,6 +10,7 @@ export const load = async () => {
     password: env.PROXMOX_PASSWORD,
     username: env.PROXMOX_USERNAME,
   });
+  const redisClient = await createClient({ url: env.CACHE || "redis://127.0.0.1:6379"}).connect();
 
   const cachedVms = await redisClient.get("vms");
   const cachedUptime = await redisClient.get("uptime");
