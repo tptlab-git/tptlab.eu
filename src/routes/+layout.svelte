@@ -6,6 +6,7 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Montserrat");
     </style>
+    <title>KutseLabor/TPTlab</title>
 </svelte:head>
 
 <style>
