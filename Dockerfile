@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm ci
+RUN npm i
 RUN npm run build
 RUN rm -rf src/ static/ lib/
 
