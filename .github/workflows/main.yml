@@ -69,12 +69,11 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Start Redis
-        uses: supercharge/redis-github-action@1.7.0
-        with:
-          redis-version: ${{ matrix.redis-version }}
+      - name: Run redis temp
+        id: setup
+        uses: shogo82148/actions-setup-redis@v1
         env:
-          CACHE: redis://localhost:6379
+          CACHE: redis://127.0.0.1:6379
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
