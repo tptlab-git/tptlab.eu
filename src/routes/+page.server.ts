@@ -1,15 +1,15 @@
 import proxmoxApi from "proxmox-api";
 import { createClient } from "redis";
-import { PROXMOX_USERNAME, PROXMOX_PASSWORD, CACHE } from "$env/static/private";
+import { env } from "$env/dynamic/private";
 
 const bytesToGB = 1024 ** 3;
-const redisClient = await createClient({ url: CACHE }).connect();
+const redisClient = await createClient({ url: env.CACHE }).connect();
 
 export const load = async () => {
   const proxmox = proxmoxApi({
     host: "proxmox.local.tptlab.eu",
-    password: PROXMOX_PASSWORD,
-    username: PROXMOX_USERNAME,
+    password: env.PROXMOX_PASSWORD,
+    username: env.PROXMOX_USERNAME,
   });
 
   const cachedVms = await redisClient.get("vms");
