@@ -1,0 +1,16 @@
+{
+      "title": "KutseLabor",
+      "opilasele": "Õpilasele",
+      "opetajale": "Õpetajale",
+      "wiki": "Wiki",
+      "main_question": "Mis on KutseLabor/TPTlab?",
+      "main_answer": "KutseLabor on TPT project, mis laseb õpilastel teha enda virtuaal masinaid TPT infrastruktuuri peal. Sealt ei saa keegi kolmas isik seda kustutada ja õpilased saavad ka kodust nendele ligi.",
+      "online_vmid": "Online VMid",
+      "serveri_tooaeg": "Serverite tööaeg*",
+      "memory": "Kasutatud/Max mälu",
+      "teacher_questions": "Kas oled polütehnikumi õpetaja? Soovid õpilastele teha mugavat lab keskonda?",
+      "teacher_span": "Siis see on õige lahendus sulle!",
+      "teacher_main": "Jätta mineviku peavalud, sest õpilasel kustutati virtuaal masin ära või õpilane jäi haigeks ja ei saa kaasa teha, sest VM on kooli arvuti peal.",
+      "teacher_main_point": "Koli juba täna KutseLabor-i pilve infrastruktuuri peale!",
+      "juurdepaasu_taotlemine": "Juurdepääsu taotlemine"
+}

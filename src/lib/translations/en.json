@@ -1,0 +1,16 @@
+{
+      "title": "TPTlab",
+      "opilasele": "For Student",
+      "opetajale": "For Teacher",
+      "wiki": "Wiki",
+      "main_question": "What is KutseLabor/TPTlab?",
+      "main_answer": "KutseLabor/TPTlab is a TPT project that allows students to create their own virtual machines on TPT infrastructure. There no third person can delete the VM and students can also access it from their homes.",
+      "online_vmid": "Online VMs",
+      "serveri_tooaeg": "Servers uptime*",
+      "memory": "Used/Max Memory",
+      "teacher_questions": "Are you a polütehnikum teacher? Do you want to create a comfortable lab environment for students?",
+      "teacher_span": "Then this is the right solution for you!",
+      "teacher_main": "Leave behind past headaches, like when a student's virtual machine got deleted or a student fell ill and couldn't participate because their VM was on the school computer.",
+      "teacher_main_point": "Move to the KutseLabor cloud infrastructure today!",
+      "juurdepaasu_taotlemine": "Request access"
+}
