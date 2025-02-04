@@ -13,7 +13,7 @@
           {$t("common.teacher_main_point")}
         </p>
         <div class="flex gap-4 my-4">
-          <a href="https://bookstack.local.tptlab.eu" 
+          <a href="/et/opetajale/taotlemine" 
              class="font-bold text-xl py-4 px-6 rounded-md
                     bg-gradient-to-br from-[#00adef] to-[#0e9758] 
                     bg-clip-border text-white transition duration-300 ease-in-out 
